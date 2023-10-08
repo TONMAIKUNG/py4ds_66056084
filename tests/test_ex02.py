@@ -7,12 +7,12 @@ Use this two formulas for converting between Celsius and Fahrenheit
 """
 
 
-def test_convert_to_celsius(Fahrenheit):
+def test_convert_to_celsius():
     assert convert_to_celsius(0) == -17.77777777777778
     assert convert_to_celsius(180) == 82.22222222222223
 
 
-def test_convert_to_fahrenheit(Celsius):
+def test_convert_to_fahrenheit():
     assert convert_to_fahrenheit(0) == 32
     assert convert_to_fahrenheit(100) == 212
 
