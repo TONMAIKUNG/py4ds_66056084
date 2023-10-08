@@ -32,6 +32,5 @@ def convert_to_celsius(fahrenheit):
     celsius = (fahrenheit - 32) * (5/9)
     return celsius
 
-def test_convert_two_times():
-
-    return celsius
+def test_convert_two_times(x):
+    return round(convert_to_celsius(convert_to_fahrenheit(x)))
