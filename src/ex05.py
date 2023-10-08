@@ -17,4 +17,11 @@ def fizz_buzz(param):
         str or int: The result of the FizzBuzz calculation.
     """
     # TODO : complete this
-    pass
+    if param % 3 == 0 and param % 5 == 0:
+        return 'FizzBuzz'
+    elif param % 3 == 0:
+        return 'Fizz'
+    elif param % 5 == 0:
+        return 'Buzz'
+    else:
+        return param
