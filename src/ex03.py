@@ -16,7 +16,7 @@ def is_odd(num):
     # TODO : complete this
     if num % 2 == 1:
         return True
-    else :
+    else:
         return False
 
 
@@ -33,5 +33,5 @@ def is_even(num):
     # TODO : complete this
     if num % 2 == 0:
         return True
-    else :
+    else:
         return False
