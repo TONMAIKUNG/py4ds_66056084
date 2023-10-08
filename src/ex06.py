@@ -14,4 +14,12 @@ def ordinal_suffix(param):
         str: The ordinal suffix corresponding to the given number.
     """
     # TODO : complete this
-    pass
+    number = param % 100
+    if number == 1:
+        return '%dst'%param
+    elif number == 2:
+        return '%dnd'%param
+    elif number == 3:
+        return '%drd'%param
+    else :
+        return '%dth'%param
