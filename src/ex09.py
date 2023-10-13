@@ -19,4 +19,9 @@ def get_chess_square_color(col, row):
         str: The color of the chess square, either 'white' or 'black'.
     """
     # TODO : complete this
-    pass
+    sum_data = col+row
+    if sum_data % 2 == 0:
+        return 'White'
+    else :
+        return 'Black'
+
