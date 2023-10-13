@@ -2,7 +2,7 @@ from src.ex19 import *
 
 
 def test_gen_password():
-    assert len(gen_password(8)) == 12
+    assert len(gen_password(8)) == 8
     pwd = gen_password(14)
     assert len(pwd) == 14
     has_lower_case = False

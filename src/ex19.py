@@ -10,7 +10,7 @@ SPECIAL = '~!@#$%^&*()_+'                       # 13
 
 ALL_CHARS = LOWER_LETTERS + UPPER_LETTERS + NUMBERS + SPECIAL
 
-
-def gen_password(param):
+result = []
+def gen_password(num):
     # TODO : complete this
-    pass
+    return ''.join(random.choice(ALL_CHARS) for i in range(num))
