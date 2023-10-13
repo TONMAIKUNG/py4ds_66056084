@@ -4,7 +4,7 @@ Exercise 17
 import random
 
 
-def roll_dice(params):
+def roll_dice(num_of_dice):
     """
     Calculate the total sum of rolling a certain number of dice.
 
@@ -14,4 +14,4 @@ def roll_dice(params):
     Returns:
         int: The total sum of the dice rolls.
     """
-    pass
+    return num_of_dice * 6
