@@ -41,5 +41,5 @@ def get_hr_min_sec(tsec):
         return "%ss" %(seconds)
     elif hour == 0 and minutes == 0 and seconds == 0:
         return "%ss" %(seconds)
-    else :
+    else:
         return "%sh %sm %ss" %(hour , minutes , seconds)
