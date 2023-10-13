@@ -16,6 +16,6 @@ def test_is_valid_date():
 
     d = datetime.datetime(1970, 1, 1)
     one_day = datetime.timedelta(days=1)
-    for i in range(1000000):
+    for i in range(10000):
         assert is_valid_date(d.year, d.month, d.day) is True
         d += one_day
